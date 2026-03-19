@@ -204,11 +204,6 @@ function loadProducts() {
     : JSON.parse(JSON.stringify(DEFAULT_PRODUCTS));
 }
 
-// Salvar produtos no localStorage
-function saveProducts() {
-  localStorage.setItem("products", JSON.stringify(products));
-}
-
 // Renderizar produtos
 function renderProducts() {
   const filtered = filterProducts();
