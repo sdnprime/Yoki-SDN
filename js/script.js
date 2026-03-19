@@ -191,17 +191,25 @@ const formTabContents = document.querySelectorAll(".form-tab-content");
 
 // Inicializar aplicação
 function init() {
-  loadProducts();
+  carregarCards();
   renderProducts();
   setupEventListeners();
 }
 
-// Carregar produtos do localStorage ou usar padrão
-function loadProducts() {
-  const saved = localStorage.getItem("products");
-  products = saved
-    ? JSON.parse(saved)
-    : JSON.parse(JSON.stringify(DEFAULT_PRODUCTS));
+async function carregarCards() {
+  try {
+    const resposta = await fetch("json/dados.json");
+    const json = await resposta.json();
+
+    // Salvamos os dados no array global 'products'
+    // Usamos 'json.dados' porque seu JSON tem essa estrutura
+    products = json.dados;
+
+    // Agora que o array 'products' tem conteúdo, chamamos a renderização
+    renderProducts();
+  } catch (erro) {
+    console.error("Erro ao carregar o JSON:", erro);
+  }
 }
 
 // Renderizar produtos
@@ -223,7 +231,6 @@ function renderProducts() {
 
 // Filtrar produtos
 function filterProducts() {
-  // Pré-processa a busca: remove espaços, acentos e passa para minúsculo
   const normalizedSearch = searchQuery
     .trim()
     .toLowerCase()
@@ -231,22 +238,23 @@ function filterProducts() {
     .replace(/[\u0300-\u036f]/g, "");
 
   return products.filter((product) => {
+    // Filtro de Categoria
     const matchCategory =
-      currentCategory === "all" || product.category === currentCategory;
+      currentCategory === "all" || product.categoria === currentCategory;
 
-    // Função auxiliar para normalizar os campos do produto
+    // Normalização para busca textual
     const prepareText = (text) =>
       (text || "")
         .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "");
 
-    const productName = prepareText(product.name);
-    const productCategory = prepareText(product.category);
+    const nomeProduto = prepareText(product.nome);
+    const categoriaProduto = prepareText(product.categoria);
 
     const matchSearch =
-      productName.includes(normalizedSearch) ||
-      productCategory.includes(normalizedSearch);
+      nomeProduto.includes(normalizedSearch) ||
+      categoriaProduto.includes(normalizedSearch);
 
     return matchCategory && matchSearch;
   });
@@ -257,37 +265,39 @@ function createProductCard(product) {
   const card = document.createElement("div");
   card.className = "product-card";
 
-  const nutrition = product.nutritionalInfo;
+  // Ajustado para o nome da chave no seu JSON: "informacaoNutricional"
+  const nutrition = product.informacaoNutricional || {};
 
-  // 1. Criamos as linhas da tabela dinamicamente
-  // Usamos Object.entries para pegar tanto a CHAVE (key) quanto o VALOR (value)
+  // Mapeia dinamicamente: funciona para "Sódio", "Açúcares", "Minerais", etc.
   const nutritionRows = Object.entries(nutrition)
     .map(([key, value]) => {
-      // Opcional: Capitalizar a primeira letra da chave para ficar bonito na tela
+      // Deixa a primeira letra maiúscula (ex: sodio -> Sódio)
       const label = key.charAt(0).toUpperCase() + key.slice(1);
-      return `<tr><td>${label}</td><td>${value}</td></tr>`;
+      return `<tr><td><strong>${label}</strong></td><td>${value}</td></tr>`;
     })
-    .join(""); // Junta o array de strings em uma única string HTML
+    .join("");
 
   card.innerHTML = `
     <div class="card-inner">
         <div class="card-front">
             <div class="product-image">
-                <img src="${product.image}" alt="${product.name}" onerror="this.src='data:image/svg+xml,...'">
+                <img src="${product.imagem}" alt="${product.nome}" onerror="this.src='https://via.placeholder.com/150'">
             </div>
             <div class="product-info">
-                <h3 class="product-name">${product.name}</h3>
-                <p class="product-category">${product.category}</p>
+                <h3 class="product-name">${product.nome}</h3>
+                <p class="product-category">${product.categoria}</p>
                 <div class="product-footer">
-                    <span class="product-price">R$ ${product.price.toFixed(2).replace(".", ",")}</span>
+                    <span class="product-price">R$ ${product.preco.toFixed(2).replace(".", ",")}</span>
                 </div>
             </div>
         </div>
 
         <div class="card-back">
-            <h4>Tabela Nutricional</h4>
+            <h4>Informação Nutricional</h4>
             <table class="nutrition-table">
-                ${nutritionRows} 
+                <tbody>
+                    ${nutritionRows}
+                </tbody>
             </table>
         </div>
     </div>
