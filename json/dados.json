@@ -203,6 +203,40 @@
         "Fibra alimentar": "0 g",
         "Sódio": "16 mg"
     }
+  },
+  {
+    "id": "13",
+      "nome": "Farofa Tradicional 400g",
+      "categoria": "Acompanhamentos",
+      "preco": 7.80,
+      "imagem": "imagens/Yoki_PDP_farofa-tradicional-400g.png",
+      "informacaoNutricional": {
+        "Valor energético": "143 kcal = 603 kJ",
+        "Carboidratos": "28 g",
+        "Proteínas": "0,4 g",
+        "Gorduras totais": "3,2 g",
+        "Gorduras saturadas": "1,4 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "2,8 g",
+        "Sódio": "183 mg"
+    }
+  },
+  {
+    "id": "14",
+      "nome": "Batata Palha Tradicional 105g",
+      "categoria": "Acompanhamentos",
+      "preco": 7.50,
+      "imagem": "imagens/Batata_palha-105g.png",
+      "informacaoNutricional": {
+        "Valor energético": "138 kcal = 675 kJ",
+        "Carboidratos": "11 g",
+        "Proteínas": "1,3 g",
+        "Gorduras totais": "9,9 g",
+        "Gorduras saturadas": "4,3 g",
+        "Gorduras trans": "0,1 g",
+        "Fibra alimentar": "0,9 g",
+        "Sódio": "54 mg"
+    }
   }
   ]
 }
