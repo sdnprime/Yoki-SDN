@@ -8,7 +8,13 @@
       "imagem": "imagens/Tapioca-500g.png",
       "informacaoNutricional": {
         "Valor energético": "108 kcal = 459 kJ",
-        "Carboidratos": "27 g"
+        "Carboidratos": "27 g",
+        "Proteínas": "0 g",
+        "Gorduras totais": "0 g",
+        "Gorduras saturadas": "0 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "0 g",
+        "Sódio": "0 g"
       }
     }
   ]
