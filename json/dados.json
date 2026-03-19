@@ -2,7 +2,7 @@
   "dados": [
     {
       "id": "1",
-      "nome": "TAPIOCA 500g",
+      "nome": "Tapioca 500g",
       "categoria": "Farináceos",
       "preco": 15.99,
       "imagem": "imagens/Tapioca-500g.png",
@@ -16,6 +16,193 @@
         "Fibra alimentar": "0 g",
         "Sódio": "0 g"
       }
+    },
+    {
+      "id": "2",
+      "nome": "Polvilho Azedo",
+      "categoria": "Farináceos",
+      "preco": 22.99,
+      "imagem": "imagens/Yoki_PDP_Polvilho-Azedo-500g.png",
+      "informacaoNutricional": {
+        "Valor energético": "72 kcal",
+        "Carboidratos": "18 g",
+        "Proteínas": "0 g",
+        "Gorduras totais": "0 g",
+        "Gorduras saturadas": "0 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "0 g",
+        "Sódio": "0 g"
+      }
+    },
+    {
+      "id": "3",
+      "nome": "Amendoim Cru 400g",
+      "categoria": "Grãos e Cereais",
+      "preco": 25.99,
+      "imagem": "imagens/Yoki_PDP_Amendoim-Cru.png",
+      "informacaoNutricional": {
+        "Valor energético": "92 kcal = 385 kJ",
+        "Carboidratos": "3 g",
+        "Proteínas": "4,1 g",
+        "Gorduras totais": "7,1 g",
+        "Gorduras saturadas": "0 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "1,1 g",
+        "Sódio": "0 g"
+      }
+    },
+    {
+      "id": "4",
+      "nome": "Ervilha 400g",
+      "categoria": "Grãos e Cereais",
+      "preco": 11.50,
+      "imagem": "imagens/Yoki_PDP_Ervilha.png",
+      "informacaoNutricional": {
+        "Valor energético": "214 kcal = 898 kJ",
+        "Carboidratos": "38 g",
+        "Proteínas": "16 g",
+        "Gorduras totais": "1 g",
+        "Gorduras saturadas": "0 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "8,7 g",
+        "Sódio": "0 g"
+      }
+    },
+    {
+      "id": "5",
+      "nome": "Pipoca Micro-ondas Natural 100g",
+      "categoria": "Pipocas",
+      "preco": 5.99,
+      "imagem": "imagens/Yoki_PDP_Pipoca-Micro-ondas-Natural.png",
+      "informacaoNutricional": {
+        "Valor energético": "109 kcal = 458 kJ",
+        "Carboidratos": "14 g",
+        "Proteínas": "1,2 g",
+        "Gorduras totais": "5,4 g",
+        "Gorduras saturadas": "2,7 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "1,4 g",
+        "Sódio": "72 mg"
     }
+    },
+    {
+      "id": "6",
+      "nome": "Pipoca Micro-ondas Manteiga de Cinema 100g",
+      "categoria": "Pipocas",
+      "preco": 5.25,
+      "imagem": "imagens/Yoki_PDP_Pipoca-Micro-ondas-Manteiga-de-Cinema-100g.png",
+      "informacaoNutricional": {
+        "Valor energético": "99 kcal = 416 kJ",
+        "Carboidratos": "14 g",
+        "Proteínas": "2,0 g",
+        "Gorduras totais": "3,9 g",
+        "Gorduras saturadas": "1,5 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "2,1 g",
+        "Sódio": "247 mg"
+    }
+  },
+  {
+"id": "7",
+      "nome": "Batata Ondulada 45g",
+      "categoria": "Salgadinhos e Snacks",
+      "preco": 5.00,
+      "imagem": "imagens/Yoki_PDP_Batata-Ondulada-45g.png",
+      "informacaoNutricional": {
+        "Valor energético": "140 kcal = 588 kJ",
+        "Carboidratos": "12 g",
+        "Proteínas": "1,4 g",
+        "Gorduras totais": "9,4 g",
+        "Gorduras saturadas": "4,3 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "0,6 g",
+        "Sódio": "130 mg"
+    }
+  },
+  {
+    "id": "8",
+      "nome": "Batata Ondulada Cebola e Salsa 45g",
+      "categoria": "Salgadinhos e Snacks",
+      "preco": 5.49,
+      "imagem": "imagens/Yokitos-Batata-Ondulada-Cebola-e-Salsa-45g.png",
+      "informacaoNutricional": {
+        "Valor energético": "140 kcal = 588 kJ",
+        "Carboidratos": "12 g",
+        "Proteínas": "1,5 g",
+        "Gorduras totais": "9,4 g",
+        "Gorduras saturadas": "4,3 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "0,6 g",
+        "Sódio": "130 mg"
+    }
+  },
+  {
+     "id": "9",
+      "nome": "Ovinhos de Amendoim 90g",
+      "categoria": "Salgadinhos e Snacks",
+      "preco": 4.50,
+      "imagem": "imagens/Yoki_PDP_Ovinhos-de-Amendoim-90g.png",
+      "informacaoNutricional": {
+        "Valor energético": "77 kcal = 323 kJ",
+        "Carboidratos": "6,9 g",
+        "Proteínas": "2,0 g",
+        "Gorduras totais": "4,9 g",
+        "Gorduras saturadas": "1,4 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "0,5 g",
+        "Sódio": "139 mg"
+    }
+  },
+  {
+    "id": "10",
+      "nome": "Pé de Moleque 306g",
+      "categoria": "Sobremesas",
+      "preco": 22.50,
+      "imagem": "imagens/Yoki_PDP_Pe-de-Moleque-306g.png",
+      "informacaoNutricional": {
+        "Valor energético": "79 kcal = 332 kJ",
+        "Carboidratos": "6,4 g",
+        "Proteínas": "2,4 g",
+        "Gorduras totais": "4,8 g",
+        "Gorduras saturadas": "0,9 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "2,8 g",
+        "Sódio": "0 mg"
+    }
+  },
+  {
+    "id": "11",
+      "nome": "Paçoca Tablete 352g",
+      "categoria": "Sobremesas",
+      "preco": 22.90,
+      "imagem": "imagens/Pacoca-Tablete-352g.png",
+      "informacaoNutricional": {
+        "Valor energético": "110 kcal = 462 kJ",
+        "Carboidratos": "12 g",
+        "Proteínas": "3,4 g",
+        "Gorduras totais": "5,4 g",
+        "Gorduras saturadas": "1,1 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "1 g",
+        "Sódio": "23 mg"
+    }
+  },
+  {
+    "id": "12",
+      "nome": "Glicose 350g",
+      "categoria": "Sobremesas",
+      "preco": 26.30,
+      "imagem": "imagens/Yoki_PDP_Glicose-50g.png",
+      "informacaoNutricional": {
+        "Valor energético": "65 kcal = 273 kJ",
+        "Carboidratos": "16 g",
+        "Proteínas": "0 g",
+        "Gorduras totais": "0 g",
+        "Gorduras saturadas": "0 g",
+        "Gorduras trans": "0 g",
+        "Fibra alimentar": "0 g",
+        "Sódio": "16 mg"
+    }
+  }
   ]
 }
