@@ -5,7 +5,7 @@
       "nome": "TAPIOCA 500g",
       "categoria": "Farináceos",
       "preco": 15.99,
-      "imagem": "../imagens/Tapioca-500g.webp",
+      "imagem": "/imagens/Tapioca-500g.webp",
       "informacaoNutricional": {
         "Valor energético": "108 kcal = 459 kJ",
         "Carboidratos": "27 g"
