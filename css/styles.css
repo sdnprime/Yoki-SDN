@@ -45,13 +45,6 @@ body {
   display: flex;
 }
 
-.header-left p {
-  font-size: 0.95rem;
-  opacity: 0.9;
-  justify-content: center;
-  display: flex;
-}
-
 .btn-add-product {
   background-color: var(--bg-dark);
   color: var(--text-light);
@@ -726,10 +719,6 @@ footer {
 
   .header-left h1 {
     font-size: 2.5rem;
-  }
-
-  .header-left p {
-    font-size: 1.5rem;
   }
 
   .products-container {
