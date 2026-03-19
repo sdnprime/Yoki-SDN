@@ -195,7 +195,7 @@ body {
 }
 
 .product-name {
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: var(--text-light);
   margin-bottom: 0.5rem;
@@ -203,7 +203,7 @@ body {
 }
 
 .product-category {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--text-light);
   margin-bottom: 0.75rem;
 }
