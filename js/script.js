@@ -351,3 +351,4 @@ productsContainer.addEventListener("click", function (e) {
   // Alterna a classe no card clicado
   card.classList.toggle("is-flipped");
 });
+// banana
