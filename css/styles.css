@@ -45,26 +45,8 @@ body {
   display: flex;
 }
 
-.btn-add-product {
-  background-color: var(--bg-dark);
-  color: var(--text-light);
-  border: 2px solid var(--border-color);
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: all 0.3s ease;
-}
-
-.btn-add-product:hover {
-  background-color: var(--bg-light);
-  color: var(--text-dark);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px var(--bg-light);
+.header-left .logocim {
+  width: 10%;
 }
 
 .search-container {
@@ -641,10 +623,6 @@ footer {
     align-items: flex-start;
   }
 
-  .btn-add-product {
-    align-self: flex-end;
-  }
-
   .products-container {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1.5rem;
@@ -697,10 +675,6 @@ footer {
     flex-direction: row;
     gap: 1rem;
     align-items: center;
-  }
-
-  .btn-add-product {
-    align-self: auto;
   }
 
   .modal-content .form-modal {
