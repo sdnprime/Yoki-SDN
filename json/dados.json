@@ -5,7 +5,7 @@
       "nome": "Tapioca 500g",
       "categoria": "Farináceos",
       "precoOriginal": 15.99,
-      "preco": "Por: R$: 0,00 + 150 pontos",
+      "preco": "Por: R$: 0,00 + 500 pontos",
       "imagem": "imagens/Tapioca-500g.png",
       "informacaoNutricional": {
         "Valor energético": "108 kcal = 459 kJ",
@@ -23,7 +23,7 @@
       "nome": "Polvilho Azedo",
       "categoria": "Farináceos",
       "precoOriginal": 22.99,
-      "preco": "Por: R$: 0,00 + 150 pontos",
+      "preco": "Por: R$: 0,00 + 500 pontos",
       "imagem": "imagens/Yoki_PDP_Polvilho-Azedo-500g.png",
       "informacaoNutricional": {
         "Valor energético": "72 kcal",
@@ -41,7 +41,7 @@
       "nome": "Amendoim Cru 400g",
       "categoria": "Grãos e Cereais",
       "precoOriginal": 25.99,
-      "preco": "Por: R$: 0,00 + 150 pontos",
+      "preco": "Por: R$: 0,00 + 500 pontos",
       "imagem": "imagens/Yoki_PDP_Amendoim-Cru.png",
       "informacaoNutricional": {
         "Valor energético": "92 kcal = 385 kJ",
@@ -59,7 +59,7 @@
       "nome": "Ervilha 400g",
       "categoria": "Grãos e Cereais",
       "precoOriginal": 11.5,
-      "preco": "Por: R$: 0,00 + 150 pontos",
+      "preco": "Por: R$: 0,00 + 500 pontos",
       "imagem": "imagens/Yoki_PDP_Ervilha.png",
       "informacaoNutricional": {
         "Valor energético": "214 kcal = 898 kJ",
@@ -77,7 +77,7 @@
       "nome": "Pipoca Micro-ondas Natural 100g",
       "categoria": "Pipocas",
       "precoOriginal": 5.99,
-      "preco": "Por: R$: 3,00 + 75 pontos",
+      "preco": "Por: R$: 3,00 + 45 pontos",
       "imagem": "imagens/Yoki_PDP_Pipoca-Micro-ondas-Natural.png",
       "informacaoNutricional": {
         "Valor energético": "109 kcal = 458 kJ",
@@ -95,7 +95,7 @@
       "nome": "Pipoca Micro-ondas Manteiga de Cinema 100g",
       "categoria": "Pipocas",
       "precoOriginal": 5.25,
-      "preco": "Por: R$: 2,50 + 75 pontos",
+      "preco": "Por: R$: 2,50 + 45 pontos",
       "imagem": "imagens/Yoki_PDP_Pipoca-Micro-ondas-Manteiga-de-Cinema-100g.png",
       "informacaoNutricional": {
         "Valor energético": "99 kcal = 416 kJ",
@@ -113,7 +113,7 @@
       "nome": "Batata Ondulada 45g",
       "categoria": "Salgadinhos e Snacks",
       "precoOriginal": 5.0,
-      "preco": "Por: R$: 2,50 + 75 pontos",
+      "preco": "Por: R$: 2,50 + 45 pontos",
       "imagem": "imagens/Yoki_PDP_Batata-Ondulada-45g.png",
       "informacaoNutricional": {
         "Valor energético": "140 kcal = 588 kJ",
@@ -131,7 +131,7 @@
       "nome": "Batata Ondulada Cebola e Salsa 45g",
       "categoria": "Salgadinhos e Snacks",
       "precoOriginal": 5.49,
-      "preco": "Por: R$: 2,75 + 75 pontos",
+      "preco": "Por: R$: 2,75 + 45 pontos",
       "imagem": "imagens/Yokitos-Batata-Ondulada-Cebola-e-Salsa-45g.png",
       "informacaoNutricional": {
         "Valor energético": "140 kcal = 588 kJ",
