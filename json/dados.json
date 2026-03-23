@@ -209,7 +209,7 @@
       "nome": "Farofa Tradicional 400g",
       "categoria": "Acompanhamentos",
       "preco": 7.8,
-      "imagem": "imagens/Yoki_PDP_farofa-tradicional-400g.png",
+      "imagem": "imagens/Farofa-Tradicional-400g.png",
       "informacaoNutricional": {
         "Valor energético": "143 kcal = 603 kJ",
         "Carboidratos": "28 g",
@@ -226,7 +226,7 @@
       "nome": "Batata Palha Tradicional 105g",
       "categoria": "Acompanhamentos",
       "preco": 7.5,
-      "imagem": "imagens/Batata_palha-105g.png",
+      "imagem": "imagens/Batata-Palha-Tradicional-100g.png",
       "informacaoNutricional": {
         "Valor energético": "138 kcal = 675 kJ",
         "Carboidratos": "11 g",
