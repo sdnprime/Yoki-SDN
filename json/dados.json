@@ -5,7 +5,7 @@
       "nome": "Tapioca 500g",
       "categoria": "Farináceos",
       "precoOriginal": 15.99,
-      "preco": "R$: 0,00 + 150 pontos",
+      "preco": "Por: R$: 0,00 + 150 pontos",
       "imagem": "imagens/Tapioca-500g.png",
       "informacaoNutricional": {
         "Valor energético": "108 kcal = 459 kJ",
@@ -23,7 +23,7 @@
       "nome": "Polvilho Azedo",
       "categoria": "Farináceos",
       "precoOriginal": 22.99,
-      "preco": "R$: 0,00 + 150 pontos",
+      "preco": "Por: R$: 0,00 + 150 pontos",
       "imagem": "imagens/Yoki_PDP_Polvilho-Azedo-500g.png",
       "informacaoNutricional": {
         "Valor energético": "72 kcal",
@@ -41,7 +41,7 @@
       "nome": "Amendoim Cru 400g",
       "categoria": "Grãos e Cereais",
       "precoOriginal": 25.99,
-      "preco": "R$: 0,00 + 150 pontos",
+      "preco": "Por: R$: 0,00 + 150 pontos",
       "imagem": "imagens/Yoki_PDP_Amendoim-Cru.png",
       "informacaoNutricional": {
         "Valor energético": "92 kcal = 385 kJ",
@@ -59,7 +59,7 @@
       "nome": "Ervilha 400g",
       "categoria": "Grãos e Cereais",
       "precoOriginal": 11.5,
-      "preco": "R$: 0,00 + 150 pontos",
+      "preco": "Por: R$: 0,00 + 150 pontos",
       "imagem": "imagens/Yoki_PDP_Ervilha.png",
       "informacaoNutricional": {
         "Valor energético": "214 kcal = 898 kJ",
@@ -77,7 +77,7 @@
       "nome": "Pipoca Micro-ondas Natural 100g",
       "categoria": "Pipocas",
       "precoOriginal": 5.99,
-      "preco": "R$: 3,00 + 75 pontos",
+      "preco": "Por: R$: 3,00 + 75 pontos",
       "imagem": "imagens/Yoki_PDP_Pipoca-Micro-ondas-Natural.png",
       "informacaoNutricional": {
         "Valor energético": "109 kcal = 458 kJ",
@@ -95,7 +95,7 @@
       "nome": "Pipoca Micro-ondas Manteiga de Cinema 100g",
       "categoria": "Pipocas",
       "precoOriginal": 5.25,
-      "preco": "R$: 2,50 + 75 pontos",
+      "preco": "Por: R$: 2,50 + 75 pontos",
       "imagem": "imagens/Yoki_PDP_Pipoca-Micro-ondas-Manteiga-de-Cinema-100g.png",
       "informacaoNutricional": {
         "Valor energético": "99 kcal = 416 kJ",
@@ -113,7 +113,7 @@
       "nome": "Batata Ondulada 45g",
       "categoria": "Salgadinhos e Snacks",
       "precoOriginal": 5.0,
-      "preco": "R$: 2,50 + 75 pontos",
+      "preco": "Por: R$: 2,50 + 75 pontos",
       "imagem": "imagens/Yoki_PDP_Batata-Ondulada-45g.png",
       "informacaoNutricional": {
         "Valor energético": "140 kcal = 588 kJ",
@@ -131,7 +131,7 @@
       "nome": "Batata Ondulada Cebola e Salsa 45g",
       "categoria": "Salgadinhos e Snacks",
       "precoOriginal": 5.49,
-      "preco": "R$: 2,75 + 75 pontos",
+      "preco": "Por: R$: 2,75 + 75 pontos",
       "imagem": "imagens/Yokitos-Batata-Ondulada-Cebola-e-Salsa-45g.png",
       "informacaoNutricional": {
         "Valor energético": "140 kcal = 588 kJ",
@@ -149,7 +149,7 @@
       "nome": "Ovinhos de Amendoim 90g",
       "categoria": "Salgadinhos e Snacks",
       "precoOriginal": 4.5,
-      "preco": "R$: 4,50",
+      "preco": "",
       "imagem": "imagens/Yoki_PDP_Ovinhos-de-Amendoim-90g.png",
       "informacaoNutricional": {
         "Valor energético": "77 kcal = 323 kJ",
@@ -167,7 +167,7 @@
       "nome": "Pé de Moleque 306g",
       "categoria": "Sobremesas",
       "precoOriginal": 22.5,
-      "preco": "R$: 22,50",
+      "preco": "",
       "imagem": "imagens/Yoki_PDP_Pe-de-Moleque-306g.png",
       "informacaoNutricional": {
         "Valor energético": "79 kcal = 332 kJ",
@@ -185,7 +185,7 @@
       "nome": "Paçoca Tablete 352g",
       "categoria": "Sobremesas",
       "precoOriginal": 22.9,
-      "preco": "R$: 22,90",
+      "preco": "",
       "imagem": "imagens/Pacoca-Tablete-352g.png",
       "informacaoNutricional": {
         "Valor energético": "110 kcal = 462 kJ",
@@ -203,7 +203,7 @@
       "nome": "Glicose 350g",
       "categoria": "Sobremesas",
       "precoOriginal": 26.3,
-      "preco": "R$: 26,30",
+      "preco": "",
       "imagem": "imagens/Yoki_PDP_Glicose-50g.png",
       "informacaoNutricional": {
         "Valor energético": "65 kcal = 273 kJ",
@@ -221,7 +221,7 @@
       "nome": "Farofa Tradicional 400g",
       "categoria": "Acompanhamentos",
       "precoOriginal": 7.8,
-      "preco": "R$: 7,80",
+      "preco": "",
       "imagem": "imagens/Farofa-Tradicional-400g.png",
       "informacaoNutricional": {
         "Valor energético": "143 kcal = 603 kJ",
@@ -239,7 +239,7 @@
       "nome": "Batata Palha Tradicional 105g",
       "categoria": "Acompanhamentos",
       "precoOriginal": 7.5,
-      "preco": "R$: 7,50",
+      "preco": "",
       "imagem": "imagens/Batata-Palha-Tradicional-100g.png",
       "informacaoNutricional": {
         "Valor energético": "138 kcal = 675 kJ",
