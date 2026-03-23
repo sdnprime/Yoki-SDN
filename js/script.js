@@ -114,7 +114,8 @@ function createProductCard(product) {
                 <h3 class="product-name">${product.nome}</h3>
                 <p class="product-category">${product.categoria}</p>
                 <div class="product-footer">
-                    <span class="product-price">${product.preco}</span>
+                    <span class="product-price">De: R$ ${product.precoOriginal.toFixed(2).replace(".", ",")}</span>
+                    <span class="product-price">Por: ${product.preco}</span>
                 </div>
             </div>
         </div>

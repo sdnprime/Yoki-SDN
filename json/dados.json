@@ -4,6 +4,7 @@
       "id": "1",
       "nome": "Tapioca 500g",
       "categoria": "Farináceos",
+      "precoOriginal": 15.99,
       "preco": "R$: 0,00 + 150 pontos",
       "imagem": "imagens/Tapioca-500g.png",
       "informacaoNutricional": {
@@ -21,6 +22,7 @@
       "id": "2",
       "nome": "Polvilho Azedo",
       "categoria": "Farináceos",
+      "precoOriginal": 22.99,
       "preco": "R$: 0,00 + 150 pontos",
       "imagem": "imagens/Yoki_PDP_Polvilho-Azedo-500g.png",
       "informacaoNutricional": {
@@ -38,6 +40,7 @@
       "id": "3",
       "nome": "Amendoim Cru 400g",
       "categoria": "Grãos e Cereais",
+      "precoOriginal": 25.99,
       "preco": "R$: 0,00 + 150 pontos",
       "imagem": "imagens/Yoki_PDP_Amendoim-Cru.png",
       "informacaoNutricional": {
@@ -55,6 +58,7 @@
       "id": "4",
       "nome": "Ervilha 400g",
       "categoria": "Grãos e Cereais",
+      "precoOriginal": 11.5,
       "preco": "R$: 0,00 + 150 pontos",
       "imagem": "imagens/Yoki_PDP_Ervilha.png",
       "informacaoNutricional": {
@@ -72,6 +76,7 @@
       "id": "5",
       "nome": "Pipoca Micro-ondas Natural 100g",
       "categoria": "Pipocas",
+      "precoOriginal": 5.99,
       "preco": "R$: 3,00 + 75 pontos",
       "imagem": "imagens/Yoki_PDP_Pipoca-Micro-ondas-Natural.png",
       "informacaoNutricional": {
@@ -89,6 +94,7 @@
       "id": "6",
       "nome": "Pipoca Micro-ondas Manteiga de Cinema 100g",
       "categoria": "Pipocas",
+      "precoOriginal": 5.25,
       "preco": "R$: 2,50 + 75 pontos",
       "imagem": "imagens/Yoki_PDP_Pipoca-Micro-ondas-Manteiga-de-Cinema-100g.png",
       "informacaoNutricional": {
@@ -106,6 +112,7 @@
       "id": "7",
       "nome": "Batata Ondulada 45g",
       "categoria": "Salgadinhos e Snacks",
+      "precoOriginal": 5.0,
       "preco": "R$: 2,50 + 75 pontos",
       "imagem": "imagens/Yoki_PDP_Batata-Ondulada-45g.png",
       "informacaoNutricional": {
@@ -123,6 +130,7 @@
       "id": "8",
       "nome": "Batata Ondulada Cebola e Salsa 45g",
       "categoria": "Salgadinhos e Snacks",
+      "precoOriginal": 5.49,
       "preco": "R$: 2,75 + 75 pontos",
       "imagem": "imagens/Yokitos-Batata-Ondulada-Cebola-e-Salsa-45g.png",
       "informacaoNutricional": {
@@ -140,6 +148,7 @@
       "id": "9",
       "nome": "Ovinhos de Amendoim 90g",
       "categoria": "Salgadinhos e Snacks",
+      "precoOriginal": 4.5,
       "preco": "R$: 4,50",
       "imagem": "imagens/Yoki_PDP_Ovinhos-de-Amendoim-90g.png",
       "informacaoNutricional": {
@@ -157,6 +166,7 @@
       "id": "10",
       "nome": "Pé de Moleque 306g",
       "categoria": "Sobremesas",
+      "precoOriginal": 22.5,
       "preco": "R$: 22,50",
       "imagem": "imagens/Yoki_PDP_Pe-de-Moleque-306g.png",
       "informacaoNutricional": {
@@ -174,6 +184,7 @@
       "id": "11",
       "nome": "Paçoca Tablete 352g",
       "categoria": "Sobremesas",
+      "precoOriginal": 22.9,
       "preco": "R$: 22,90",
       "imagem": "imagens/Pacoca-Tablete-352g.png",
       "informacaoNutricional": {
@@ -191,6 +202,7 @@
       "id": "12",
       "nome": "Glicose 350g",
       "categoria": "Sobremesas",
+      "precoOriginal": 26.3,
       "preco": "R$: 26,30",
       "imagem": "imagens/Yoki_PDP_Glicose-50g.png",
       "informacaoNutricional": {
@@ -208,6 +220,7 @@
       "id": "13",
       "nome": "Farofa Tradicional 400g",
       "categoria": "Acompanhamentos",
+      "precoOriginal": 7.8,
       "preco": "R$: 7,80",
       "imagem": "imagens/Farofa-Tradicional-400g.png",
       "informacaoNutricional": {
@@ -225,6 +238,7 @@
       "id": "14",
       "nome": "Batata Palha Tradicional 105g",
       "categoria": "Acompanhamentos",
+      "precoOriginal": 7.5,
       "preco": "R$: 7,50",
       "imagem": "imagens/Batata-Palha-Tradicional-100g.png",
       "informacaoNutricional": {
