@@ -193,7 +193,7 @@ body {
 .product-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   padding-top: 1rem;
   border-top: 1px solid var(--border-color);
 }
@@ -553,7 +553,7 @@ body {
 .product-card {
   background-color: transparent;
   perspective: 1000px;
-  height: 30rem; /* Altura fixa para o giro funcionar bem */
+  height: 32rem; /* Altura fixa para o giro funcionar bem */
   border: none;
   cursor: pointer;
 }
