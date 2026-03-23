@@ -55,7 +55,7 @@
       "id": "4",
       "nome": "Ervilha 400g",
       "categoria": "Grãos e Cereais",
-      "preco": 11.50,
+      "preco": 11.5,
       "imagem": "imagens/Yoki_PDP_Ervilha.png",
       "informacaoNutricional": {
         "Valor energético": "214 kcal = 898 kJ",
@@ -83,7 +83,7 @@
         "Gorduras trans": "0 g",
         "Fibra alimentar": "1,4 g",
         "Sódio": "72 mg"
-    }
+      }
     },
     {
       "id": "6",
@@ -100,13 +100,13 @@
         "Gorduras trans": "0 g",
         "Fibra alimentar": "2,1 g",
         "Sódio": "247 mg"
-    }
-  },
-  {
-"id": "7",
+      }
+    },
+    {
+      "id": "7",
       "nome": "Batata Ondulada 45g",
       "categoria": "Salgadinhos e Snacks",
-      "preco": 5.00,
+      "preco": 5.0,
       "imagem": "imagens/Yoki_PDP_Batata-Ondulada-45g.png",
       "informacaoNutricional": {
         "Valor energético": "140 kcal = 588 kJ",
@@ -117,10 +117,10 @@
         "Gorduras trans": "0 g",
         "Fibra alimentar": "0,6 g",
         "Sódio": "130 mg"
-    }
-  },
-  {
-    "id": "8",
+      }
+    },
+    {
+      "id": "8",
       "nome": "Batata Ondulada Cebola e Salsa 45g",
       "categoria": "Salgadinhos e Snacks",
       "preco": 5.49,
@@ -134,13 +134,13 @@
         "Gorduras trans": "0 g",
         "Fibra alimentar": "0,6 g",
         "Sódio": "130 mg"
-    }
-  },
-  {
-     "id": "9",
+      }
+    },
+    {
+      "id": "9",
       "nome": "Ovinhos de Amendoim 90g",
       "categoria": "Salgadinhos e Snacks",
-      "preco": 4.50,
+      "preco": 4.5,
       "imagem": "imagens/Yoki_PDP_Ovinhos-de-Amendoim-90g.png",
       "informacaoNutricional": {
         "Valor energético": "77 kcal = 323 kJ",
@@ -151,13 +151,13 @@
         "Gorduras trans": "0 g",
         "Fibra alimentar": "0,5 g",
         "Sódio": "139 mg"
-    }
-  },
-  {
-    "id": "10",
+      }
+    },
+    {
+      "id": "10",
       "nome": "Pé de Moleque 306g",
       "categoria": "Sobremesas",
-      "preco": 22.50,
+      "preco": 22.5,
       "imagem": "imagens/Yoki_PDP_Pe-de-Moleque-306g.png",
       "informacaoNutricional": {
         "Valor energético": "79 kcal = 332 kJ",
@@ -168,13 +168,13 @@
         "Gorduras trans": "0 g",
         "Fibra alimentar": "2,8 g",
         "Sódio": "0 mg"
-    }
-  },
-  {
-    "id": "11",
+      }
+    },
+    {
+      "id": "11",
       "nome": "Paçoca Tablete 352g",
       "categoria": "Sobremesas",
-      "preco": 22.90,
+      "preco": 22.9,
       "imagem": "imagens/Pacoca-Tablete-352g.png",
       "informacaoNutricional": {
         "Valor energético": "110 kcal = 462 kJ",
@@ -185,13 +185,13 @@
         "Gorduras trans": "0 g",
         "Fibra alimentar": "1 g",
         "Sódio": "23 mg"
-    }
-  },
-  {
-    "id": "12",
+      }
+    },
+    {
+      "id": "12",
       "nome": "Glicose 350g",
       "categoria": "Sobremesas",
-      "preco": 26.30,
+      "preco": 26.3,
       "imagem": "imagens/Yoki_PDP_Glicose-50g.png",
       "informacaoNutricional": {
         "Valor energético": "65 kcal = 273 kJ",
@@ -202,13 +202,13 @@
         "Gorduras trans": "0 g",
         "Fibra alimentar": "0 g",
         "Sódio": "16 mg"
-    }
-  },
-  {
-    "id": "13",
+      }
+    },
+    {
+      "id": "13",
       "nome": "Farofa Tradicional 400g",
       "categoria": "Acompanhamentos",
-      "preco": 7.80,
+      "preco": 7.8,
       "imagem": "imagens/Yoki_PDP_farofa-tradicional-400g.png",
       "informacaoNutricional": {
         "Valor energético": "143 kcal = 603 kJ",
@@ -219,13 +219,13 @@
         "Gorduras trans": "0 g",
         "Fibra alimentar": "2,8 g",
         "Sódio": "183 mg"
-    }
-  },
-  {
-    "id": "14",
+      }
+    },
+    {
+      "id": "14",
       "nome": "Batata Palha Tradicional 105g",
       "categoria": "Acompanhamentos",
-      "preco": 7.50,
+      "preco": 7.5,
       "imagem": "imagens/Batata_palha-105g.png",
       "informacaoNutricional": {
         "Valor energético": "138 kcal = 675 kJ",
@@ -236,7 +236,7 @@
         "Gorduras trans": "0,1 g",
         "Fibra alimentar": "0,9 g",
         "Sódio": "54 mg"
+      }
     }
-  }
   ]
 }
