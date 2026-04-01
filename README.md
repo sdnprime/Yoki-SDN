@@ -1,8 +1,9 @@
-# Mix Snacks - Catálogo de Produtos
+# MARKETPLACE CIM
 
-Página estática de catálogo de produtos para os clientes da SDN PRIME.
+Página estática para exemplificar a parceria entre Yoki e Congnitivos.
 
 ## 📝 Licença
 
 Copyright ® SDN.
 Todos os direitos reservados.
+
